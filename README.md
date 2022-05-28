@@ -1,29 +1,32 @@
 # Thresholding of Images
-## Aim
+## AIM:
 To segment the image using global thresholding, adaptive thresholding and Otsu's thresholding using python and OpenCV.
 
-## Software Required
+## SOFTWARE REQUIRED:
 1. Anaconda - Python 3.7
 2. OpenCV
 
-## Algorithm
+## ALGORITHM:
 
-### Step1:
-<br>
+### Step 1:
+Load the necessary packages.
 
-### Step2:
-<br>
+### Step 2:
+Read the Image and convert to grayscale.
 
-### Step3:
-<br>
+### Step 3:
+Use Global thresholding to segment the image.
 
-### Step4:
-<br>
+### Step 4:
+Use Adaptive thresholding to segment the image.
 
-### Step5:
-<br>
+### Step 5:
+Use Otsu's method to segment the image.
 
-## Program
+### Step 6:
+Display the results.
+
+## PROGRAM:
 
 ```python
 # Load the necessary packages
@@ -66,37 +69,41 @@ for i in range(0,9):
     plt.axis("off")
     plt.show()
 ```
-## Output
+## OUTPUT:
 
 ### Original Image
-<br>
-<br>
-<br>
-<br>
+![output](https://user-images.githubusercontent.com/94169913/170804197-03651e68-9602-4cad-97e5-8bf656b25ea2.png)
 <br>
 
 ### Global Thresholding
+![binary](https://user-images.githubusercontent.com/94169913/170804215-9ebf1488-48f6-41b6-9ec1-742318a55214.png)
 <br>
+
+![binaryinv](https://user-images.githubusercontent.com/94169913/170804220-4bcc4b01-3298-4e0b-89c8-4b5fa34f505f.png)
 <br>
+
+![tozero](https://user-images.githubusercontent.com/94169913/170804228-b31f47fc-85a4-4fa0-89f2-e28bf3466ebe.png)
 <br>
+
+![tozeroinv](https://user-images.githubusercontent.com/94169913/170804233-6760ca96-d7e5-4ab9-b22d-20b6dab7ee10.png)
 <br>
+
+![truncate](https://user-images.githubusercontent.com/94169913/170804241-3975793c-6bf2-4548-9751-42c49400cda7.png)
 <br>
 
 ### Adaptive Thresholding
+![atmean](https://user-images.githubusercontent.com/94169913/170804257-8db21a81-3783-461f-886e-240232844b43.png)
 <br>
-<br>
-<br>
-<br>
+
+![atgauss](https://user-images.githubusercontent.com/94169913/170804270-0a8c86ca-04ce-4ab5-9d14-b81e692162c5.png)
 <br>
 
 ### Optimum Global Thesholding using Otsu's Method
-<br>
-<br>
-<br>
-<br>
+![otsu](https://user-images.githubusercontent.com/94169913/170804281-771feca2-1675-4491-8b00-3149140aba2e.png)
+
 <br>
 
 
-## Result
+## RESULT:
 Thus the images are segmented using global thresholding, adaptive thresholding and optimum global thresholding using python and OpenCV.
 
